@@ -1,0 +1,130 @@
+@font-face{
+	font-family: "fangsong";
+	src:local("fonts/AdobeFangsongStd-Regular.otf");
+}
+
+@font-face{
+	font-family: "Agency FB";
+	src:local("fonts/AGENCYB.TTF");
+}
+
+@font-face{
+	font-family: "prestige elite std";
+	src:local("fonts/PrestigeEliteStd-Bd.otf");
+}
+
+::selection{
+  background-color: #e7d0ba;
+  color: #eae3a2;
+}
+
+::-moz-selection{
+  background-color: #e7d0ba;
+  color: #eae3a2;
+}
+
+body{
+	margin: 0px;
+	background-color: #100806; 
+	color: white;
+	font-family: "fangsong";
+	line-height: 1.75em;
+    font-size: 14px;
+    letter-spacing: .4px;
+    font-style: normal;
+}
+
+p{
+	text-align: justify;
+	font-size: 1.3em;
+}
+
+.titleName {
+	font-family: "fangsong";
+	position: fixed;
+	text-align: center;
+	margin-top: 5px;
+	width: 100vw;
+	color: #e7d0ba;
+}
+
+.head{
+	width: 100%;
+	height: 600px;
+}
+
+.menu{
+	position: fixed;
+	width: 100vw;
+	background-color: #000000a8;
+	padding-top: 80px;
+	padding-bottom: 2px;
+	margin-top: -20px;
+	align-content: right;
+	color: #a9a9a9;
+}
+
+.itemHolder{
+	width:65%;
+	margin-left:auto;
+	margin-right:auto;
+	align-content:center;
+}
+
+.itemMenu{
+	float: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.itemMenu:hover{
+	color:white;
+	cursor:pointer;
+}
+
+.celMenu {
+	
+}
+
+
+
+.article{
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titleFont{
+	width: 100%;
+	font-family: "prestige elite std";
+	text-align: center;
+	font-size: 6vw;
+}
+
+.subtitleFont{
+	font-family: "prestige elite std";
+	font-size: 4vw;
+}
+
+@media screen and (max-width: 601px) {
+  
+body{
+	line-height: 1.75em;
+    font-size: 3.5vw;
+    letter-spacing: .4px;
+}
+
+.menu{
+	visibility: hidden;
+}
+
+.titleName {
+	background-color: #000000a8;
+	margin-top: 0px;
+}
+
+}
